@@ -3,8 +3,8 @@
     - all margins and paddings set to 0
 */
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 /* 2. global style
@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 p{
-    margin: 0.75px 0%;
+    margin: 0.75px 0;
 }
 
 /* 3. settings
@@ -38,16 +38,17 @@ p{
     - and lastly set a rule on overflowing elements inside to hidden.
 
 */
-
-#asd {
-    max-width: 1100px;
-
-}
-#asd .aaa{
-    width: 1100px;
-    background-color: #fdf6f0;
+#asd{
     height: 200px;
-    padding-left: 10%;
+    background-color: #fdf6f0;
+}
+.aaa{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    height: 200px;
+   
+    
 }
 h2,h3,p{
     padding: 0 2rem;
